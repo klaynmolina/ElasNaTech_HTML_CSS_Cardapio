@@ -157,7 +157,7 @@ img {
     .menu button {
         line-height: 2;
     }
-    
+
     .doces img {
         width: 250px;
         margin-top: 2%;
@@ -165,5 +165,9 @@ img {
 
     .doces {
         flex-direction: column;
+    }
+
+    .rodape {
+        text-align: center;
     }
 }
