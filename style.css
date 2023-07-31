@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+* {
+    background-color: #FEC3C7;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 50%;
+}
+
+.cabecalho img {
+    width: 300px;
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: #FEC3C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.cabecalho h1 {
+    font-size: 3rem;
+    font-family: 'Borel', cursive;
+    margin-bottom: 0;
+}
+
+.cabecalho h3 {
+    font-family: 'Borel', cursive;
+    text-align: center;
+}
+
+.cabecalho-separador {
+    margin-left: 10%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu button {
+    margin-right: 50px;
+    color: palevioletred;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.menu button:hover {
+    color: whitesmoke;
+    transform: scale(1.05);
+    transition: all .2s ease;
+}
+
+.produtos h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.doces img {
+    width: 400px;
+    border-radius: 10%;
+}
+
+.doces {
+    display: flex;
+    align-items: center;
+    justify-items: space-around;
+    text-align: justify;
+    margin: 5% 15%;
+    border-top: 2px solid #c7777c;
+    border-bottom: 2px solid #c7777c;
+}
+
+.doces p {
+    font-size: larger;
+    line-height: 1.5;
+}
+
+.doces-descricao {
+    margin-left: 10%;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.rodape img {
+    width: 50px;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #001E4C #001e4ca3;
+}
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #FEC3C7;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #FEC3C7;
+    border-radius: 20px;
+    border: 3px solid #e39da2;
+}
