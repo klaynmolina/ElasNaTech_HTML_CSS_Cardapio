@@ -103,7 +103,7 @@ img {
 }
 
 .doces-descricao {
-    margin-left: 10%;
+    margin: 2% 5%;
 }
 
 .rodape {
@@ -139,11 +139,16 @@ img {
 }
 
 @media(max-width: 1000px) {
+
     .cabecalho {
         display: flex;
         flex-direction: column;
     }
 
+    .cabecalho-separador {
+        margin: 0;
+    } 
+    
     .cabecalho h1 {
         font-size: 2rem;
         text-align: center;
@@ -153,9 +158,10 @@ img {
         display: flex;
         flex-direction: column;
     }
-
+    
     .menu button {
         line-height: 2;
+        margin: 0;
     }
 
     .doces img {
@@ -165,9 +171,15 @@ img {
 
     .doces {
         flex-direction: column;
+        margin: 0;
+    }
+
+    .doces-descricao {
+        margin: 10px;
     }
 
     .rodape {
         text-align: center;
+        margin-top: 5%;
     }
 }
