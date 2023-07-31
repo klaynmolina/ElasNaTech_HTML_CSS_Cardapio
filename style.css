@@ -5,6 +5,12 @@
     scroll-behavior: smooth;
 }
 
+main {
+    margin: auto;
+    min-width: 280px;
+    max-width: 800px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -130,4 +136,34 @@ img {
     background-color: #FEC3C7;
     border-radius: 20px;
     border: 3px solid #e39da2;
+}
+
+@media(max-width: 1000px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu button {
+        line-height: 2;
+    }
+    
+    .doces img {
+        width: 250px;
+        margin-top: 2%;
+    }
+
+    .doces {
+        flex-direction: column;
+    }
 }
