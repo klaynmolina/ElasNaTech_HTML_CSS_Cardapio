@@ -29,6 +29,10 @@ img {
     width: 50%;
 }
 
+.fonte {
+    text-align: center;
+}
+
 .cabecalho img {
     width: 300px;
     margin: 0;
@@ -143,6 +147,11 @@ img {
 }
 
 @media(max-width: 1000px) {
+
+    .fonte {
+        display: flex;
+        flex-direction: column;
+    }
 
     .cabecalho {
         display: flex;
